@@ -1,9 +1,9 @@
-import { FaCog } from "react-icons/all";
-import { FaToolbox } from "react-icons/all";
-import { FaDollarSign } from "react-icons/all";
-import { FaPeopleCarry } from "react-icons/all";
-import { FaPaintBrush } from "react-icons/all";
-import { FaFolderOpen } from "react-icons/all";
+import { FaCog } from "react-icons/fa";
+import { FaToolbox } from "react-icons/fa";
+import { FaDollarSign } from "react-icons/fa6";
+import { FaPeopleCarry } from "react-icons/fa";
+import { FaPaintBrush } from "react-icons/fa";
+import { FaFolderOpen } from "react-icons/fa6";
 
 
  export type detailsProps =  {

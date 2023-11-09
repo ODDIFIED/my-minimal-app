@@ -3,7 +3,7 @@ import {
   FaInstagram,
   FaPaperclip,
   FaPhoneAlt,
-} from "react-icons/all";
+} from "react-icons/fa";
 import { GiPalmTree } from "react-icons/gi";
 
 const Footer = () => {
