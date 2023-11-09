@@ -8,7 +8,7 @@ import { GiPalmTree } from "react-icons/gi";
 
 const Footer = () => {
   return (
-    <div id="Footer" className="w-full max-w-7xl md:px-20 xsm:pb-10  md:py-10 bg-green-900 mt-10">
+    <div id="Footer" className="w-full max-w-7xl md:px-20 xsm:pb-10  md:py-5 bg-green-900 mt-10">
 
     <div className="  xsm:flex xsm:flex-col xsm:py-10 md:flex md:flex-row md:justify-evenly  ">
       <div className="md:w-[50%] xsm:w-[100%]  md:mx-0">
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className="md:w-[50%] xsm:ml-3 xsm:w-[100% ] px-3 xsm:mt-8 xsm:mx-auto">
         <table className="text-white table-auto     text-sm">
-          <th className=" xsm:px-0 md:px-5"> Social Media</th>
+          <th className=" xsm:px-0 md:px-5"> Socials</th>
           <th className="xsm:px-0  md:px-5"> Working Hours</th>
           <th>Contact</th>
           <tbody>
@@ -56,7 +56,7 @@ const Footer = () => {
                   </table>
       </div>
     </div>
-    <div className=" w-full xsm:mt-3 md:mt-20 text-white mx-auto text-center">
+    <div className=" w-full xsm:mt-3 md:mt-20 text-white mx-auto text-xs font-semibold text-center">
           <p>@2023 0ddified-Ng.Copyright reserved.Privacy policy </p>
         </div>
     </div>

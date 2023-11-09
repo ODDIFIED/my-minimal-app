@@ -9,18 +9,23 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-full max-w-7xl h-16  lg:px-20 flex bg-green-900 justify-evenly place-items-center ">
+    <div id="hero" className="w-full max-w-7xl h-16 fixed xsm:px-2 md:px-0   lg:px-20 flex bg-green-900 justify-evenly place-items-center ">
       <div className=" w-[50%] text-white font-bold  flex place-items-center font-sans   ">
         <GiPalmTree color={"yellow"} size={"20px"} />
         <h2>Odd Landscaping</h2>
       </div>
 
-      <div className=" w-[50%] lg:flex lg:justify-evenly lg:space-x-16 xsm:hidden place-items-center md:text-xl ">
-        <ul className="flex text-white capitalize space-x-5">
-          <li>home</li>
+      <div className=" w-[50%] lg:flex lg:justify-evenly lg:space-x-20 xsm:hidden place-items-center md:text-xl ">
+        <ul className="flex text-sm font-sans font-bold text-white capitalize space-x-10">
+          <Link to={'#sectionOne'}>
           <li>About</li>
+          </Link>
+          <Link to={'#sectionTwo'}>
           <li>Services</li>
+          </Link>
+          <Link to={'#Footer'}>
           <li>Contact Us</li>
+          </Link>
         </ul>
         <div className="xsm:hidden lg:flex  ">
           <button className="border bg-black text-white text-sm border-black rounded-2xl px-2 py-2 ">
@@ -49,7 +54,7 @@ const Navbar = () => {
               home
            </li>
           </Link>
-          <Link to={'#sectionOne'} onClick={handleNav} >
+          <Link to={'#sectionTwo'} onClick={handleNav} >
            <li className="p-5 mt-5 border-b-2 font-semibold  border-yellow-400 ">
               about
            </li>
