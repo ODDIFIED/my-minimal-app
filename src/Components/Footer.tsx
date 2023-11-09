@@ -22,7 +22,7 @@ const Footer = () => {
           for any type of commercial and residential client!
         </p>
         
-      </div>
+      </div>``
       <div className="md:w-[50%] xsm:ml-3 xsm:w-[100% ] px-3 xsm:mt-8 xsm:mx-auto">
         <table className="text-white table-auto     text-sm">
           <th className=" xsm:px-0 md:px-5"> Socials</th>
