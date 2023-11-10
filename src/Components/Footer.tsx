@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="md:w-[50%] xsm:ml-3 xsm:w-[100% ] px-3 xsm:mt-8 xsm:mx-auto">
         <table className="text-white table-auto     text-sm">
           <th className=" xsm:px-0 md:px-5"> Socials</th>
-          <th className="xsm:px-0  md:px-5"> Working Hours</th>
+          <th className="xsm:px-0  md:px-7"> Working Hours</th>
           <th>Contact</th>
           <tbody>
           <tr className="text-sm">
@@ -47,7 +47,7 @@ const Footer = () => {
               </>
             </td>
             <td className="xsm:w-[30%] md:w-[100%] md:px-2"> Working Hour : 7AM - 6PM </td>
-            <td className="flex justify-center place-items-center  ">
+            <td className="flex justify-center place-items-center gap-2  ">
               <FaPaperclip size={12} color="yellow" /> Land0dd@gmail.com
             </td>
           </tr>
@@ -56,7 +56,7 @@ const Footer = () => {
                   </table>
       </div>
     </div>
-    <div className=" w-full xsm:mt-3 md:mt-20 text-white mx-auto text-xs font-semibold text-center">
+    <div className=" w-full xsm:mt-3 md:mt-16 text-white mx-auto text-xs font-semibold text-center">
           <p>@2023 0ddified-Ng.Copyright reserved.Privacy policy </p>
         </div>
     </div>

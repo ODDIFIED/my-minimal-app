@@ -16,8 +16,8 @@ const Hero = () => {
           Work with us
         </button>
       </div>
-      <div className=" md:w-[60%] xsm:mt-14  md:gap-20  lg:w-[50%] items-end  ">
-        <img src={tree}  className=" xsm:h-72 mt-10 "   alt="tree-img" />
+      <div className=" md:w-[60%] xsm:mt-14 md:   md:gap-20  lg:w-[50%] items-end  ">
+        <img src={tree}  className=" xsm:h-72  md:h-96 "   alt="tree-img" />
       </div>
     </div>
   );

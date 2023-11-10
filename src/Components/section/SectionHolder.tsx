@@ -47,14 +47,14 @@ const SectionHolder = () => {
             We service both commercial and residential customers,and are full
             service design,installation,landscape and maintanance company, Such as :
           </h2>
-          <div className="xsm:w-[85%] lg:w-[70%] lg:mx-auto  md:mx-auto  xsm:mx-auto ">
-            <ul className="xsm:mt-5 text-green-900 xsm:ml-5  md:ml-0 list-disc xsm:text-sm xsm:mx-auto xsm:grid xsm:grid-cols-2 lg:grid lg:grid-cols-3 md:text-sm font-bold">
-              <li className="mb-2 "> Mulching/Bed Maintanance </li>
-              <li className="mb-2">Brush Cleaning/ Removal</li>
-              <li className="mb-2">Hardscaping</li>
-              <li className="mb-2">Landscaping design And Installation</li>
-              <li className="mb-2">Planting</li>
-              <li className="mb-2">Weed Wacking</li>
+          <div className="xsm:w-[85%] md:w-[60%] lg:w-[50%] lg:mx-auto  md:mx-auto  xsm:mx-auto ">
+            <ul className="xsm:mt-5 text-green-900   md:ml-0 list-disc xsm:text-sm  xsm:grid xsm:grid-cols-2 lg:grid lg:grid-cols-2 md:text-sm font-bold">
+              <li className="mb-4 "> Mulching/Bed Maintanance </li>
+              <li className="mb-4">Brush Cleaning/ Removal</li>
+              <li className="mb-4">Hardscaping</li>
+              <li className="mb-4">Landscaping design And Installation</li>
+              <li className="mb-4">Planting</li>
+              <li className="mb-4">Weed Wacking</li>
             </ul>
           </div>
         </div>
