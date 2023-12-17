@@ -2,8 +2,9 @@ import tree from "../assets/tree.png";
 
 const Hero = () => {
   return (
-    <div  className=" w-full max-w-7xl md:px-20  md:py-20   bg-yellow-300 xsm:flex xsm:flex-col-reverse  md:space-x-10 xsm:pb-10 md:flex md:flex-row  md:justify-center lg:flex lg:flex-row lg:justify-evenly xsm:place-items-center ">
-      <div className=" xsm:text-center md:w-[40%]  text-green-900  lg:w-[50%]  md:text-left">
+    <div  className=" w-full max-w-7xl   md:py-20   bg-yellow-300   ">
+      <div className=" w-full  xsm:flex xsm:flex-col-reverse md:px-20  md:space-x-10 xsm:pb-10 md:flex md:flex-row  xsm:place-items-center ">
+      <div className=" xsm:text-center md:w-[50%]  text-green-900  lg:w-[50%]  md:text-left">
         <h2 className=" xsm:w-[85%] xsm:mx-auto md:w-[100%] lg:w-[ 100%]  md:mx-0 font-bold xsm:text-3xl md:text-2xl lg:text-3xl">
           Offering Quality work at a fair price to the Cape Cod area.
         </h2>
@@ -16,9 +17,11 @@ const Hero = () => {
           Work with us
         </button>
       </div>
-      <div className=" md:w-[60%] xsm:mt-14 md:   md:gap-20  lg:w-[50%] items-end  ">
+      <div className=" md:w-[60%] xsm:mt-14   md:gap-20  lg:w-[40%] items-center   ">
         <img src={tree}  className=" xsm:h-72  md:h-96 "   alt="tree-img" />
       </div>
+      </div>
+      
     </div>
   );
 };

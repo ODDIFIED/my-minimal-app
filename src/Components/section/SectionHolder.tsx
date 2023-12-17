@@ -43,11 +43,11 @@ const SectionHolder = () => {
       </div>
       <div>
       <div id="sectionTwo" className=" xsm:w-[100%] xsm:mx-auto xsm:mt-12 md:mt-10 md:w-[100%] lg:w-[100%] md:text-center xsm:text-center   lg:ml-0">
-          <h2 className=" xsm:w-[100%] sm:w-[90%] xsm:mx-auto md:w-[75%] md:mx-auto lg:w-[80%] text-green-900 font-semibold xsm:text-sm md:text-sm md:font-semiboldbold lg:text-center">
+          <h2 className=" xsm:w-[95%] sm:w-[90%] xsm:mx-auto md:w-[75%] md:mx-auto lg:w-[80%] text-green-900 font-semibold xsm:text-sm md:text-sm md:font-semiboldbold lg:text-center">
             We service both commercial and residential customers,and are full
             service design,installation,landscape and maintanance company, Such as :
           </h2>
-          <div className="xsm:w-[85%] md:w-[60%] lg:w-[50%] lg:mx-auto  md:mx-auto  xsm:mx-auto ">
+          <div className="xsm:w-[80%] md:w-[60%] px-5 md:px-0 lg:w-[50%] lg:mx-auto  md:mx-auto  xsm:mx-auto ">
             <ul className="xsm:mt-5 text-green-900   md:ml-0 list-disc xsm:text-sm  xsm:grid xsm:grid-cols-2 lg:grid lg:grid-cols-2 md:text-sm font-bold">
               <li className="mb-4 "> Mulching/Bed Maintanance </li>
               <li className="mb-4">Brush Cleaning/ Removal</li>

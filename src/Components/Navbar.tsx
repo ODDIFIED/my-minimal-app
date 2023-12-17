@@ -9,7 +9,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div id="hero" className="w-full max-w-7xl h-16 fixed xsm:px-2 md:px-0   lg:px-20 flex bg-green-900 justify-evenly place-items-center ">
+    <div id="hero" className="w-full max-w-7xl h-16 fixed xsm:px-3    lg:px-20 flex bg-green-900 justify-evenly place-items-center ">
       <div className=" w-[50%] text-white font-bold  flex place-items-center font-sans   ">
         <GiPalmTree color={"yellow"} size={"20px"} />
         <h2>Odd Landscaping</h2>
